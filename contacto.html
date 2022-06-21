@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" href="imagenes/Icon.png" />
+    <title>Erlin Ramirez</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <a href="#" class="logo"></a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="quiensoy.html" class="nav-link ">¿Quién soy?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="habilidades.html" class="nav-link ">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="proyectos.html" class="nav-link ">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contacto.html" class="nav-link ">Contacto</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="container">
+            <h2 class="h2-sub">
+                <a href="index.html">ERLIN CAROLINA RAMÍREZ</a>
+                
+            </h2>
+            <h1 class="head">12vo BTP INFORMÁTICA
+            </h1>
+            <div class="he-des">
+                <h5>Instituto San Vicente de Paúl</h5>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+
+        const selectElement = function (element) {
+            return document.querySelector(element);
+        }
+
+
+        let menuToggle = selectElement('.menu-toggle');
+        let body = selectElement('body');
+
+        menuToggle.addEventListener('click', function () {
+            body.classList.toggle('open');
+        })
+
+    </script>
+    <!-- FIN DEL NAV -->
+
+    <div class="redes">
+        <center><h1>Estas son mis redes sociales ¡contactate conmigo!</h1></center>
+
+            <center>
+                <div class="imagen1">
+                    <img src="imagenes/whatsaap.png" width="100"><br><br>
+                </div>                   
+                   <h2>+504 9665-4089</h2>  <br><br>
+                
+                    <div class="imagen2">
+                        <img src="imagenes/gmail.png" width="200"><br>
+                    </div>                   
+                    <h2>ecanizales04@gmail.com</h2> <br><br>
+
+                    <div class="imagen3">
+                        <img src="imagenes/face.png" width="100"><br>
+                    </div>
+                <h2>Carolina Ramírez</h2>
+                     <br><br>
+
+                    <div class="imagen4">
+                        <img src="imagenes/insta.png" width="100"><br>
+                    </div>
+                    <h2>caroline.canizales</h2>
+                     <br><br>
+            </center>
+        
+       
+        
+    </div>
+    </body>
+        <!-- HECHO POR: ERLIN CAROLINA RAMÍREZ CANIZALES -->
+    </html>

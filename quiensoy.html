@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="icon" href="imagenes/Icon.png" />
+    <title>Erlin Ramirez</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <a href="#" class="logo"></a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="quiensoy.html" class="nav-link ">¿Quién soy?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="habilidades.html" class="nav-link ">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="proyectos.html" class="nav-link ">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contacto.html" class="nav-link ">Contacto</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="container">
+            <h2 class="h2-sub">
+                <a href="index.html">ERLIN CAROLINA RAMÍREZ</a>
+                
+            </h2>
+            <h1 class="head">12vo BTP INFORMÁTICA
+            </h1>
+            <div class="he-des">
+                <h5>Instituto San Vicente de Paúl</h5>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+
+        const selectElement = function (element) {
+            return document.querySelector(element);
+        }
+
+
+        let menuToggle = selectElement('.menu-toggle');
+        let body = selectElement('body');
+
+        menuToggle.addEventListener('click', function () {
+            body.classList.toggle('open');
+        })
+
+    </script>
+    <!-- FIN DEL NAV -->
+    
+    <div class="foto">
+        <center><img src="imagenes/ayo.png" alt="" width="130"></center>
+    </div>
+
+    <center>
+        <div class="saludo">
+            <h1>Hola, mi nombre es Erlin Carolina Ramírez Canizales</h1>
+        </div>
+    </center>
+        <div class="descripcion">
+            Tengo 17 años, actualmente estudio en el Instituto San Vicente de Paúl en el doceavo grado del bacillerato 
+            tecnico profesional en Informática, mi área favorita de la carrera es la programación por lo que planeo estudiar 
+            ingeniera en sistemas en la universidad. Decidi estudiar infromatica en el bachillerato porque la tecnologia es 
+            algo que me gusta mucho y a demas se que la informática es una área que tiene mucho futuro.
+            Soy una persona un poco hiperactiva, no me gusta estar sin hacer nada por lo que en mis tiempos libres me gusta tratar de 
+            enriquecer mis conocimientos o leer libros, ver series o peliculas junto a mi familia o salir con mis amigos,
+            tambien disfruto mucho viajar y conocer nuevos lugares junto a mi familia ya que somos muy unidos.
+        </div>
+
+</body>
+
+</html>
